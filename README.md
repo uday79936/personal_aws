@@ -15,3 +15,5 @@ step -7 : :q!   without saving
 step -8: sudo systemctl restart sshd
 
 step -9:  username@ip address
+
+step -10: sudo userdel -r uday
