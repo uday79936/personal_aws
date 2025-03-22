@@ -10,6 +10,8 @@ step -5 : sudo vi /etc/ssh/sshd_config
 
 step -6 : !wq
 
-step -7 : :q   without saving
+step -7 : :q!   without saving
 
-step -7: sudo systemctl restart sshd
+step -8: sudo systemctl restart sshd
+
+step -9:  username@ip address
