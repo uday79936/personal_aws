@@ -4,7 +4,7 @@ step -2 : sudo passwd uday
 
 step -3 : sudo visudo
 
-step -4 : uday All
+step -4 : uday All  (for permissions)
 
 step -5 : sudo vi /etc/ssh/sshd_config
 
