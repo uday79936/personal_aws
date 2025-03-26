@@ -8,7 +8,7 @@ step -4 : uday All  (for permissions)
 
 step -5 : sudo vi /etc/ssh/sshd_config
 
-step -6 : !wq
+step -6 : !wq   with saving
 
 step -7 : :q!   without saving
 
