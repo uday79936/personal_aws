@@ -32,3 +32,9 @@ step-5: mvn validate
 
 step-6: mvn test
 
+step-7: mvn tree
+
+step-8: mvn clean (to clean their package)
+
+step-9: mvn package
+
