@@ -17,3 +17,18 @@ step -8: sudo systemctl restart sshd
 step -9:  username@ip address
 
 step -10: sudo userdel -r uday
+
+Bulid step by step:
+
+step-1: ec2 creation
+
+step-2: install git and then git clone
+
+step-3: install java 11 updated
+
+step-4: install maven
+
+step-5: mvn validate
+
+step-6: mvn test
+
