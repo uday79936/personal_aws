@@ -18,23 +18,36 @@ step -9:  username@ip address
 
 step -10: sudo userdel -r uday
 
-Bulid step by step:
+Bulid step by step process:step-1s
 
-step-1: ec2 creation
+step-1:  To create EC2 instance
 
-step-2: install git and then git clone
+step-2: To download java11 version and update
 
-step-3: install java 11 updated
+step-3:  To install git and then clone the code
 
-step-4: install maven
+step-4:  To install maven
 
-step-5: mvn validate
+step-5:  mvn validate   to check weather project or not
 
-step-6: mvn test
+step-6:  mvn test
 
-step-7: mvn tree
+step-7: wget to download the tomcat 9 version
 
-step-8: mvn clean (to clean their package)
+step-8: To extract the file by using tar -xvzf or xvf and <path link>
 
-step-9: mvn package
+step-9: cp -r kiran/target/* .war apache-tomcat-9.0.102/webapps/
+
+step-10: cd  webapps
+
+step-11: host-manager manager
+
+step-12: cd bin and then startup.sh and shutdown.sh
+
+step-13: conf and then change the username and password
+
+step-14: 
+
+
+
 
