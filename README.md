@@ -46,7 +46,7 @@ step-12: cd bin and then startup.sh and shutdown.sh
 
 step-13: conf and then change the username and password
 
-step-14: 
+step-14: finally we can deploy the project
 
 
 
